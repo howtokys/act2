@@ -33,7 +33,3 @@ The protocol for communication between the client and server consists of two mai
 - **User Logout Request**:
   - Header: `5X`
   - Body: Empty
-
-### Serialization
-
-All data in the body is serialized using `pickle` for complex objects and use of byte string for simple objects, before sending and deserialized upon receiving.
